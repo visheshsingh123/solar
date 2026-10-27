@@ -10,7 +10,7 @@ import '@fontsource/dm-sans/latin-700.css';
 import './style.css';
 const sun='<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2"><circle cx="16" cy="16" r="6"/><path d="M16 1v5m0 20v5M1 16h5m20 0h5M5 5l4 4m14 14 4 4M5 27l4-4M23 9l4-4"/></svg>';
 const arrow='<svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg>';
-const photos={hero:'/images/solar-landscape.png',home:'/images/solar-landscape.png',panels:'/images/solar-landscape.png',farm:'/images/solar-landscape.png'};
+const photos={hero:'./images/solar-landscape.png',home:'./images/solar-landscape.png',panels:'./images/solar-landscape.png',farm:'./images/solar-landscape.png'};
 document.querySelector('#app').innerHTML=`
 <div class="topbar">A little sunshine. A lifetime of savings. <a href="#calculator">Discover your solar potential ${arrow}</a><span>Made for a brighter India 🇮🇳</span></div>
 <header><a class="brand" href="#">${sun}solara<span>®</span></a><nav aria-label="Main navigation"><a href="#solutions">Our solutions</a><a href="#why">Why Solara</a><a href="#projects">Our projects</a><a href="#about">About us</a></nav><a class="button small dark" href="#contact">Let’s talk solar ${arrow}</a><button class="menu" aria-label="Open navigation">☰</button></header>
